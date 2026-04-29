@@ -89,6 +89,8 @@ Trình bày toàn bộ plan theo định dạng sau, sau đó **dừng lại và
 - Mỗi heading `###` phải bắt đầu bằng icon tương ứng mức độ
 - Section B và C phải luôn xuất hiện đầy đủ — nếu không có vấn đề thì ghi
   `Không có vấn đề` thay vì bỏ section
+- Title phải dùng **đường dẫn tuyệt đối** cho link file
+- Phải có đúng một dòng trống giữa mỗi bảng và heading tiếp theo
 
 Icon mapping:
 
@@ -100,7 +102,7 @@ Icon mapping:
 - `💡` cho Suggestion
 
 ```
-# Plan Sửa: [<tên file>](<đường dẫn file>)
+# Plan Sửa: [<tên file>](<đường dẫn tuyệt đối>)
 
 ## 🔥 A. Tóm Tắt
 
@@ -140,9 +142,6 @@ Icon mapping:
 | Dòng | Hiện tại       | Lý Do Cần Xác Nhận   |
 |------|----------------|----------------------|
 | <N>  | <Mô tả vấn đề> | <Lý do>              |
-
-`Bạn có đồng ý với plan trên không? Trả lời "có" để thực hiện hoặc cho biết
-những thay đổi bạn muốn điều chỉnh.`
 ```
 
 ### Bước 7: Thực Hiện Sau Khi Được Phép
@@ -153,7 +152,7 @@ Chỉ thực hiện sau khi người dùng xác nhận. Dùng `Edit` để sửa
 Sau khi hoàn tất, hiển thị kết quả:
 
 ```
-# Hoàn Tất: [<tên file>](<đường dẫn file>)
+# Hoàn Tất: [<tên file>](<đường dẫn tuyệt đối>)
 
 - Dòng <N>: <mô tả ngắn gọn thay đổi đã thực hiện>
 - Dòng <M>: <mô tả ngắn gọn thay đổi đã thực hiện>

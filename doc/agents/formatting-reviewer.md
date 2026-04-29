@@ -53,13 +53,14 @@ Kiểm tra file theo từng rule đã được định nghĩa trong formatting r
 
 **Bắt buộc:**
 
-- Heading `#` là tiêu đề kết quả, chứa link đến file
+- Heading `#` là tiêu đề kết quả, chứa link đến file với **đường dẫn tuyệt đối**
 - Heading `##` gộp theo tên rule vi phạm, kèm mô tả ngắn gọn
 - Heading `###` gộp theo cấp độ cảnh báo bên trong mỗi rule
 - Các heading không dùng `---` để phân cách
 - Mỗi cấp độ bên trong rule phải xuất hiện đầy đủ — nếu không có vấn đề ở cấp
   độ đó thì bỏ qua, không cần ghi `Không có vấn đề`
 - Bỏ qua hoàn toàn rule không có bất kỳ vấn đề nào
+- Phải có đúng một dòng trống giữa mỗi bảng và heading tiếp theo
 
 Icon mapping:
 

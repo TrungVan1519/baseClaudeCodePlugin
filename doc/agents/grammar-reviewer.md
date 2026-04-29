@@ -42,10 +42,11 @@ hiện.
 
 **Bắt buộc:**
 
-- Heading `#` là tiêu đề kết quả, chứa link đến file
+- Heading `#` là tiêu đề kết quả, chứa link đến file với **đường dẫn tuyệt đối**
 - Heading `##` gộp theo cấp độ cảnh báo
 - Các heading không dùng `---` để phân cách
 - Bỏ qua cấp độ nếu không có mục nào — không ghi `Không có vấn đề`
+- Phải có đúng một dòng trống giữa mỗi bảng và heading tiếp theo
 
 Icon mapping:
 

@@ -23,13 +23,15 @@ Nếu `$ARGUMENTS` rỗng hoặc không có, hiển thị text
 
 Gọi subagent `formatting-reviewer` để kiểm tra formatting file `$ARGUMENTS`.
 Prompt của Agent call phải bắt đầu bằng `[SKILL=audit][ROLE=formatting-reviewer]`.
-Chờ kết quả đầy đủ rồi hiển thị cho người dùng.
+Chờ kết quả đầy đủ rồi **copy nguyên văn toàn bộ output của subagent** ra cho
+người dùng — không paraphrase, không tóm tắt, không thêm bớt bất kỳ nội dung nào.
 
 ## Giai Đoạn 2: Đánh Giá Nội Dung
 
 Gọi subagent `grammar-reviewer` để kiểm tra nội dung file `$ARGUMENTS`.
 Prompt của Agent call phải bắt đầu bằng `[SKILL=audit][ROLE=grammar-reviewer]`.
-Chờ kết quả đầy đủ rồi hiển thị cho người dùng.
+Chờ kết quả đầy đủ rồi **copy nguyên văn toàn bộ output của subagent** ra cho
+người dùng — không paraphrase, không tóm tắt, không thêm bớt bất kỳ nội dung nào.
 
 Sau đó gọi `AskUserQuestion` với câu hỏi:
 
@@ -51,7 +53,9 @@ cầu writer:
 - Lập plan chi tiết
 - Trả kết quả về — **KHÔNG sửa file**
 
-Chờ writer trả về plan đầy đủ rồi **hiển thị toàn bộ plan cho người dùng**.
+Chờ writer trả về plan đầy đủ rồi **copy nguyên văn toàn bộ output của writer**
+ra cho người dùng — không paraphrase, không tóm tắt, không thêm bớt bất kỳ nội
+dung nào.
 
 Sau đó gọi `AskUserQuestion` với câu hỏi:
 
