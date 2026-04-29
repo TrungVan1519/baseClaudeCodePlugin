@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C ~/.claude/plugins/marketplaces/baseClaudeCodePlugin fetch*)",
+      "Bash(git -C ~/.claude/plugins/marketplaces/baseClaudeCodePlugin rev-parse*)",
+      "Bash(git -C ~/.claude/plugins/marketplaces/baseClaudeCodePlugin show*)",
+      "Bash(jq*)",
+      "Bash(mkdir*)",
+      "Bash(cp*)",
+      "Bash(date*)",
+      "Bash(python3*)"
+    ]
+  }
+}

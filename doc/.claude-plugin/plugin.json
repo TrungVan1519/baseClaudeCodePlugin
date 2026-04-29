@@ -1,0 +1,8 @@
+{
+  "name": "doc",
+  "description": "Document SDK\n- Skills: /audit, /plugin-update, /plugin-version\n- Agents: formatting-reviewer, grammar-reviewer, writer",
+  "version": "1.0.0",
+  "author": {
+    "name": "Trung Van"
+  }
+}
