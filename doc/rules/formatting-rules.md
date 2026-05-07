@@ -323,17 +323,21 @@ Alt text phải giống tên file (không bao gồm đuôi file)
 | agent          | Android        | Android Studio | APNS        |
 | -------------- | -------------- | -------------- | ----------- |
 | Antigravity    | arm64          | certificate    | certificates |
-| context        | Dio            | FCM            | Firebase    |
-| Flutter        | Hive           | HttpV1         | identify    |
-| iOS            | profile        | profiles       | Retrofit    |
-| subagent       | token          | VSCode         | XCode       |
+| context        | Dart           | Dio            | FCM         |
+| Finder         | Firebase       | Flutter        | Gradle      |
+| Hive           | HttpV1         | identify       | iOS         |
+| Java           | Kotlin         | libs           | profile     |
+| profiles       | pubspec        | Retrofit       | subagent    |
+| Swift          | token          | VSCode         | XCode       |
 
 ### 2. Cụm Từ Khoá
 
-| App Connect            | Apple Connect | Apple Store          |
-| ---------------------- | ------------- | -------------------- |
-| context window         | Firebase Cloud Messaging | Google Play |
-| Google Play Console    | Shared Preferences |               |
+| App Connect            | Apple Connect        | Apple Store              |
+| ---------------------- | -------------------- | ------------------------ |
+| context window         | Firebase Cloud Messaging | Google Play          |
+| Google Play Console    | Keychain Sharing     | Kotlin Script            |
+| manifestPlaceholders   | Shared Preferences   | Team Id                  |
+| URL Types              |                      |                          |
 
 ### 3. Quy Tắc Viết
 
